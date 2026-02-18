@@ -65,7 +65,13 @@ button:hover {
     gap: 26px;
     width: 100%;
 }
-    /* ===== CARTA ===== */
+    #reading > .card:only-child {
+    grid-column: 2;
+}
+
+#reading > .card:nth-child(1):nth-last-child(2) {
+    grid-column: 2;
+}    /* ===== CARTA ===== */
 
 .card {
     background: rgba(30, 8, 60, 0.55);
